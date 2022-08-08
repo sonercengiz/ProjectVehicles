@@ -13,8 +13,5 @@ namespace ProjectVehicles.Repositories
         public DbSet<Bus> Buses { get; set; }
         public DbSet<Car> Cars { get; set; }
 
-    //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    //=> optionsBuilder.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
     }
 }
